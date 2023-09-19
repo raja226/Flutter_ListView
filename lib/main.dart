@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizapp/list_ViewPage.dart';
 import 'package:quizapp/login_screen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: false,
       ),
-      home: const LoginScreen(),
+      home: const ListViewPage(),
     );
   }
 }
