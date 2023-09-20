@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizapp/expeses.dart';
 import 'package:quizapp/list_ViewPage.dart';
 import 'package:quizapp/login_screen.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: false,
       ),
-      home: const ListViewPage(),
+      // home: const ListViewPage(),
+      home:  const Expeses(),
     );
   }
 }
