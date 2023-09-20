@@ -26,6 +26,12 @@ class _ExpesesState extends State<Expeses> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      appBar: AppBar(
+        title: const Text('list view')
+        ,centerTitle: true,
+        leading: IconButton(onPressed: (){}, icon: const Icon(Icons.arrow_back)),
+        actions: [IconButton(onPressed: (){}, icon: const Icon(Icons.add))]
+        ),
         body: Column(
       children: [
         const Text("the chart"),
