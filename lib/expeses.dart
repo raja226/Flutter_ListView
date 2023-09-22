@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizapp/detailsPage.dart';
 import 'package:quizapp/expeseslist.dart';
 import 'package:quizapp/models/expense.dart';
 
@@ -30,7 +31,13 @@ class _ExpesesState extends State<Expeses> {
         title: const Text('list view')
         ,centerTitle: true,
         leading: IconButton(onPressed: (){}, icon: const Icon(Icons.arrow_back)),
-        actions: [IconButton(onPressed: (){}, icon: const Icon(Icons.add))]
+        actions: [IconButton(onPressed: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context)=> const DetailsPage()));
+      
+        }, 
+        icon: const Icon(Icons.add)
+        )
+        ]
         ),
         body: Column(
       children: [
