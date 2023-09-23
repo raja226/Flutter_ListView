@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:quizapp/expeses.dart';
 import 'package:quizapp/list_ViewPage.dart';
 import 'package:quizapp/login_screen.dart';
+import 'package:quizapp/screens/categoriesscreen.dart';
 
 void main() {
 
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-  final heightofscreen = MediaQuery.of(context).size.height;
+  final double heightofscreen = MediaQuery.of(context).size.height;
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
       ),
       // home: const ListViewPage(),
-      home:  const Expeses(),
+      home:  const CategoriesScreen(),
     );
   }
 }
