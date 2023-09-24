@@ -6,6 +6,7 @@ import 'package:quizapp/expeses.dart';
 import 'package:quizapp/list_ViewPage.dart';
 import 'package:quizapp/login_screen.dart';
 import 'package:quizapp/screens/categoriesscreen.dart';
+import 'package:quizapp/screens/tabbarscreen.dart';
 
 void main() {
 
@@ -34,7 +35,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
       ),
       // home: const ListViewPage(),
-      home:  const CategoriesScreen(),
+      // home:  const CategoriesScreen(),
+       home:  const TabbarScreen(),
+
     );
   }
 }

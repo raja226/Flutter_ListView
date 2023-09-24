@@ -1,5 +1,5 @@
 import 'package:uuid/uuid.dart';
-enum Category
+enum Categoryenum
 {
   food,
   travel,
@@ -17,6 +17,6 @@ class Expese {
   final double amount;
   final String id;
   final DateTime date;
-  final Category category;
+  final Categoryenum category;
   
 }

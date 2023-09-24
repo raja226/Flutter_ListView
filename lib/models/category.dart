@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class Category {
+class CategoryModel {
 
-const Category(
+const CategoryModel(
   {
     required this.id,
     required this.title,

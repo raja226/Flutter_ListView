@@ -17,12 +17,12 @@ class _ExpesesState extends State<Expeses> {
     Expese(
         title: "Raja Movie",
         amount: 126.5,
-        category: Category.leisure,
+        category: Categoryenum.leisure,
         date: DateTime.now()),
     Expese(
         title: "Raja Movie2",
         amount: 126.5,
-        category: Category.leisure,
+        category: Categoryenum.leisure,
         date: DateTime.now()),
   ];
   @override
